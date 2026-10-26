@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BILBAHO le FANTÔME – Portfolio</title>
+<style>
+:root{
+  --bg:#f2efe9; --ink:#1d2a26; --muted:#5d6b66; --line:#cfd6d1; --accent:#1f6f5c; --card:#fbfaf7;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#141c19; --ink:#e8ede9; --muted:#9aa8a1; --line:#2b3a35; --accent:#5fcfb0; --card:#1a2420;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.65;font-size:18px}
+.wrap{max-width:640px;margin:0 auto;padding:48px 22px 64px}
+h1{font-size:clamp(2.6rem,12vw,4.2rem);line-height:1.02;margin:0 0 16px;letter-spacing:-.02em}
+h2{font-size:1.5rem;margin:56px 0 18px;padding-top:14px;border-top:2px solid var(--ink)}
+h3{font-size:1.1rem;margin:0 0 2px}
+p{margin:0 0 14px}
+.lead{font-size:1.2rem;color:var(--muted);max-width:30em}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.nav{margin-top:26px;display:flex;gap:18px;flex-wrap:wrap;font-family:system-ui,sans-serif;font-size:.95rem}
+.item{margin-bottom:22px}
+.meta{font-family:system-ui,sans-serif;font-size:.88rem;color:var(--muted);margin-bottom:4px}
+.skills{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none;font-family:system-ui,sans-serif;font-size:.92rem}
+.skills li{border:1px solid var(--line);background:var(--card);padding:5px 12px;border-radius:4px}
+.project{background:var(--card);border-left:4px solid var(--accent);padding:14px 18px;margin-bottom:16px}
+.btn{display:inline-block;margin-top:8px;padding:12px 22px;background:var(--accent);color:var(--bg);text-decoration:none;font-family:system-ui,sans-serif;font-weight:600;border-radius:4px}
+footer{margin-top:56px;font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>BILBAHO le FANTÔME</h1>
+  <p class="lead">Étudiant en sciences de la terre, développeur débutant. J’aime le codage et je veux apprendre pour me perfectionner.</p>
+  <nav class="nav">
+    <a href="#parcours">Parcours</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="parcours">
+  <h2>Parcours</h2>
+  <div class="item">
+    <h3>Étudiant en sciences de la terre</h3>
+    <div class="meta">Études supérieures</div>
+    <p>Je me forme à comprendre le sous-sol et la surface de la Terre pour résoudre des problèmes humains et environnementaux réels.</p>
+  </div>
+  <div class="item">
+    <h3>Apprentissage du développement</h3>
+    <div class="meta">En autodidacte</div>
+    <p>Je découvre le développement web et je pratique directement sur mon téléphone, avec Termux.</p>
+  </div>
+</section>
+
+<section id="competences">
+  <h2>Compétences</h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>Termux</li>
+    <li>Git et GitHub</li>
+    <li>Sciences de la terre</li>
+    <li>Environnement</li>
+    <li>Langue : français</li>
+  </ul>
+</section>
+
+<section id="projets">
+  <h2>Projets</h2>
+  <div class="project">
+    <h3>Ce portfolio</h3>
+    <p>Mon premier site, écrit en HTML et mis en ligne depuis Termux avec GitHub Pages.</p>
+  </div>
+  <div class="project">
+    <h3>Prochain projet</h3>
+    <p>En cours de réflexion. Un projet qui relie le codage et les sciences de la terre.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Une idée, une question, une proposition ? Contacte-moi.</p>
+  <p>Téléphone : <a href="tel:0584641171">0584641171</a></p>
+  <a class="btn" href="mailto:billetskonan@gmail.com">Envoyer un e-mail</a>
+</section>
+
+<footer>© 2026 BILBAHO le FANTÔME</footer>
+
+</div>
+</body>
+</html>
